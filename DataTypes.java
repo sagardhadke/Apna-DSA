@@ -20,5 +20,25 @@ public class DataTypes {
          * Object
          * Interface
          */
+
+
+        //All DataTypes Max and min Values
+        long getMin = Long.MIN_VALUE;
+        long getMax = Long.MAX_VALUE;
+        System.out.println(getMin);
+        System.out.println(getMax);
+
+        //All DataTypes Minimum and Maximum Values.
+
+        // int => -2147483648 To 2147483647
+        // Float => 1.4E-45 To 3.4028235E38
+        // Double => 4.9E-324 To 1.7976931348623157E308
+        // Char => 'a-z' to 'A-z'
+        // boolean => true and false
+        // bytes => -128 To 127
+        // short => -32768 To 32767
+        // Long => -9223372036854775808 To 9223372036854775807
+
+ 
     }
 }
